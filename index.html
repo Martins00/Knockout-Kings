@@ -11,19 +11,21 @@
     <header class="header">
         <nav class="navbar">
             <a href="#" class="nav-logo">Knockout Kings</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
+            <!-- <ul class="nav-menu"> -->
+                <!-- <li class="nav-item"> -->
+                    <div id="box">
+                        <div id="boxm">test</div>
+                        <input type="button" value="Interesting!" id="interest" onclick="box()">
+                    </div>
+                    <button onclick="box('Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, odit eos? Facere ducimus nisi, ut, fugit unde qui vero nobis et obcaecati rem culpa, nulla ab autem rerum labore error!')" id="about" class="nav-link">About</button>
+                <!-- </li> -->
+            <!-- </ul> -->
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+            
         </nav>
     </header>
 
@@ -34,133 +36,174 @@
         </article>
 
         <section id="team-intro">
-            <div>all stars</div>
-            <div>chosen boys</div>
-            <div>aribile fc</div>
-            <div>light house</div>
-            <div>fc phoenix</div>
-            <div>ajax fc</div>
-            <div>khedira boys</div>
-            <div>batecda</div>
-        </section>
+            <div class="team1">
+                <h2 class="team-name">all stars</h2> 
+                <img src="images/all stars.jpg" alt="team-pic" class="team-picture">
 
-        <section id="group-stage">
-
-            <h2 class="group-title">group 1</h2>
-            
-            <table class="table1">
-
-                <tr>
-                    <th>team name</th>
-                    <th>played</th>
-                    <th>points</th>
-                    <th>gf</th>
-                    <th>ga</th>
-                    <th>gd</th>
-                </tr>
-
-                <tr>
-                    <td>all stars</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>light house</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>chosen boys</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>aribila fc</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                
-                
-                
-                
-            </table>
-
-            <table class="table2">
-                
-                <h2 class="group-title">group 2</h2>
-                <tr>
-                    <th>team name</th>
-                    <th>played</th>
-                    <th>points</th>
-                    <th>gf</th>
-                    <th>ga</th>
-                    <th>gd</th>
-                </tr>
-                <tr>
-                    <td>khedira boys</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>bactecda</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td>fc phoenix</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                
-
-                <tr>
-                    <td>ajax fc</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                
-
-            </table>
-        </section>
-
-        <section id="fixtures">
+            </div>
+            <div class="team2">
+                <h2 class="team-name">light house</h2>
+                <img src="images/lighthouse.jpg" alt="team-pic" class="team-picture">
+            </div>
+            <div class="team3">
+                <h2 class="team-name">chosen boys</h2>
+                <img src="images/chosen boys.jpg" alt="team-pic" class="team-picture">
+            </div>
+            <div class="team4">
+                <h2 class="team-name">aribila fc</h2>
+                <img src="images/aribila fc.jpg" alt="team-pic" class="team-picture">
+            </div>
+            <div class="team5">
+                <h2 class="team-name">khedira boys</h2>
+                <img src="images/khedira boys.jpg" alt="team-pic" class="team-picture">
+            </div>
+            <div class="team6">
+                <h2 class="team-name">bactecda fc</h2>
+                <img src="images/bactecda fc.jpg" alt="team-pic" class="team-picture">
+            </div>
+            <div class="team7">
+                <h2 class="team-name">fc phoenix</h2>
+                <img src="images/phoenix fc.jpg" alt="team-pic" class="team-picture">
+            </div>
+            <div class="team8">
+                <h2 class="team-name">ajax fc</h2>
+                <img src="images/ajax fc.jpg" alt="team-pic" class="team-picture">
+            </div>
 
         </section>
 
         <section class="comp-data">
-            <div id="top-scorers"></div>
-            <div id="top-assists"></div>
-            <div id="clean-sheets"></div>
+            <h2 class="title">group stage</h2>
+
+            <section id="group-stage">
+
+                <div class="table-grid-1">
+                    <div id="head">
+                        <div>Team name</div>
+                        <div>played</div>
+                        <div>w</div>
+                        <div>d</div>
+                        <div>l</div>
+                        <div>points</div>
+                    </div>  
+                    <div id="data">
+                        <div class="table-data">light house</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">7</div>
+                        <div class="table-data">aribila fc</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">6</div>
+                        <div class="table-data">all stars</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">chosen boys</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">1</div>
+                    </div>
+                </div>
+                <div class="table-grid-2">
+                    <div id="head">
+                        <div>Team name</div>
+                        <div>played</div>
+                        <div>w</div>
+                        <div>d</div>
+                        <div>l</div>
+                        <div>points</div>
+                    </div>
+
+                    <div id="data">
+                        <div class="table-data">ajax <br> fc</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">9</div>
+                        <div class="table-data">khedira boys</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">7</div>
+                        <div class="table-data">fc phoenix</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">bactecda fc</div>
+                        <div class="table-data">3</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">1</div>
+                    </div>
+                   
+                </div>
+            </section>
+
+            <section id="knockout">
+
+                <h2 class="title">semi-finals</h2>
+                <div id="semi-final">
+                    <span class="fixture">(Pen.) *lighthouse   <span class="score">2:2</span>   khedira boys </span><br>
+                    <span class="fixture">aribila fc <span class="score">1:1</span>   ajax fc* (Pen.)</span>
+                </div>
+
+                <h2 class="title">final</h2>
+                <div id="final">
+                    
+                    <span class="fixture">ajax fc : lighthouse</span>
+                </div>
+            </section>
+
+            <h2 class="title">top scorers</h2>
+            <div id="top-scorers">  
+                <div id="top">
+                    <div>player</div>
+                    <div>goals</div>
+                </div>
+                
+                <div id="goals">
+                    <div class="table-data">pato</div>
+                    <div class="table-data">5</div>
+                    <div class="table-data">yemi</div>
+                    <div class="table-data">4</div>
+                    <div class="table-data">farook</div>
+                    <div class="table-data">4</div>
+                    <div class="table-data">uche</div>
+                    <div class="table-data">4</div>
+                    <div class="table-data">barry</div>
+                    <div class="table-data">2</div>
+                    <div class="table-data">simon</div>
+                    <div class="table-data">2</div>
+                    <div class="table-data">kachi</div>
+                    <div class="table-data">2</div>
+                </div>
+            </div>
+            
         </section>
+
+        <footer>
+            <div id="container">
+                <div id="containerm">test</div>
+                <input type="button" value="Ok" id="show" onclick="container()">
+            </div>
+              <div class="nav-item">
+                    <button onclick="container('martinsolatunji2@gmail.com')" id="contact" class="nav-link">Contact</button>
+              </div>
+        </footer>
 
     </main>
 </body>
