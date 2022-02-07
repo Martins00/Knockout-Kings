@@ -215,7 +215,8 @@ button {
 .title{
     text-transform: uppercase;
     color: #2E8B57;
-    text-align: center;   
+    text-align: center;
+    margin: 10px;
 }
 
 .table-grid-1, .table-grid-2{
@@ -243,27 +244,43 @@ button {
     text-transform: uppercase;
 }
 
-.fixture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    font-size: 20px;
-    text-transform: uppercase;
-    background-color: #2E8B57;
-    color: #ffffff;
-    padding: 10px;
-
+.semis{
+    margin-bottom: 20px ;
 }
 
-.score{
-    color: #2E8B57;
-    background-color: #ffffff;
-    padding: 5px;
-    border-radius: 10px;
-    margin: 10px;
-    place-items: center;
+.finals{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color: #2E8B57;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
+.finals-data{
+    justify-self: center;
+    margin: 20px;    
+}
+
+.scores{
+    justify-self: center;
+    margin: 10px;
+    background-color: #ffffff;
+    color: #2E8B57;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.winner{
+    display: flex;
+    justify-content: center;
+    background-color: #2E8B57;
+    color: #ffffff;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 #top-scorers{
@@ -282,9 +299,9 @@ button {
     text-align: center;
     text-transform: uppercase;
     gap: 20px;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
+
 #goals{
     display: grid;
     grid-template-columns: repeat(2, 50px);
